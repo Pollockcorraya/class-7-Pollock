@@ -64,7 +64,7 @@ nav {
 
 .banner-content h2 {
     text-transform: capitalize;
-    color: blue;
+    color: #ff1493;
     font-size: 40px;
 }
 .banner-content span {
@@ -73,14 +73,14 @@ nav {
 .banner-content p {
 	font-size: 20px;
 	padding: 3% 10%;
-	color: red;
+	color: #ff0000;
 }
 
 .learn-btn {
     background-color: #77037B;
-    color: wheat;
+    color: #f5deb3;
     padding: 15px 20px;
-    border: 2px solid red;
+    border: 2px solid #ff0000;
     border-radius: 28px;
     text-decoration: none;
     font-size: 18px;
@@ -124,7 +124,7 @@ nav {
 }
 .service-text h2 {
     text-transform: capitalize;
-    color: blue;
+    color: #0000ff;
     font-size: 40px;
     margin: 15px 0;
     text-align: center;
@@ -159,7 +159,7 @@ nav {
 }
 .blog-text h2 {
     text-transform: capitalize;
-    color: blue;
+    color: #0000ff;
     font-size: 40px;
     margin: 15px 0;
     text-align: center;
@@ -243,9 +243,9 @@ nav {
     display: inline-block;
     margin-top: 15px;
     background-color: #77037B;
-    color: wheat;
+    color: #f5deb3;
     padding: 15px 20px;
-    border: 2px solid red;
+    border: 2px solid #ff0000;
     border-radius: 28px;
     text-decoration: none;
     font-size: 18px;
