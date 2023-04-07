@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h3 {
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-top: 15px;
+    text-align: center;
+}
+p{
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 27px;
+}
+/* Header CSS */
+.main-header {
+    overflow: hidden;
+}
+nav {
+    overflow: hidden;
+    margin-top: 10px;
+}
+.logo {
+    width: 30%;
+    float: left;
+}
+.logo img {
+    width: 10%;
+}
+.menu {
+    width: 60%;
+    float: right;
+    text-align: right;
+}
+.menu li {
+    display: inline-block;
+    list-style: none;
+    margin:10px;
+}
+.menu li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.banner {
+   background-image: url(../images/bg.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 540px;
+   overflow: hidden;
+   margin: 2% 0;
+}
+
+.banner-content {
+    width: 60%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.banner-content h2 {
+    text-transform: capitalize;
+    color: blue;
+    font-size: 40px;
+}
+.banner-content span {
+    color: #00ffff;
+} 
+.banner-content p {
+	font-size: 20px;
+	padding: 3% 10%;
+	color: red;
+}
+
+.learn-btn {
+    background-color: #77037B;
+    color: wheat;
+    padding: 15px 20px;
+    border: 2px solid red;
+    border-radius: 28px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.container {
+    overflow: hidden;
+    padding-bottom: 2%;
+}
+.content-area {
+    width: 80%;
+    float: left;
+    background-color: #FDF4F5;
+    overflow: hidden;
+    padding-bottom: 2%;
+}
+/* About CSS */
+.about {
+    overflow: hidden;
+}
+
+.about-img {
+    width: 45%;
+    float: left;
+    overflow: hidden;
+    margin-right: 4%;
+}
+
+.about-img img {
+    width: 100%;
+}
+
+.about-content {
+    width: 45%;
+    text-align: center;
+    overflow: hidden;
+}
+/* Service CSS */
+.services {
+    overflow: hidden;
+    padding: 20px 0;
+}
+.service-text h2 {
+    text-transform: capitalize;
+    color: blue;
+    font-size: 40px;
+    margin: 15px 0;
+    text-align: center;
+}
+.service-item, .service-item-1 {
+    width: 23%;
+    float: left;
+    overflow: hidden;
+    margin-right: 2.5%;
+    background-color: #fdf5e6;
+    padding:20px;
+    border-radius: 15px;
+}
+.service-item-1 {
+    float: right;
+    margin-right: 0%;
+}
+/* Blog CSS */
+.blogs {
+    overflow: hidden;
+}
+
+.blog {
+    width: 33%;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    margin-right: .3%;
+    background-color: azure;
+    border-radius: 15px;
+    padding: 25px;
+}
+.blog-text h2 {
+    text-transform: capitalize;
+    color: blue;
+    font-size: 40px;
+    margin: 15px 0;
+    text-align: center;
+}
+/* Sidebar CSS */
+.sidebar {
+    width: 19%;
+    min-height: 935px;
+    float: right;
+    overflow: hidden;
+    background-color: #F9E2AF;
+    margin-left: 5px;
+}
+.side-item {
+    margin-left: 30px;
+}
+.side-item ul li {
+    margin: 0;
+    list-style: none;
+    margin: 10px 0;
+}
+
+/* Footer CSS */
+.footer {
+    width: 100%;
+    margin-top: 10px;
+}
+.social-icon img  {
+    width: 20px;
+    padding-right: 5px;
+}
+.social-link p img  {
+    width: 20px;
+    padding-right: 5px;
+}
+
+.social-link p {
+    margin-left: 5px;
+}
+.widgets {
+    overflow: hidden;
+}
+.widgets h4 {
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.address {
+    margin-top: 30px;
+}
+.footer .about, .social-link, .subscribe {
+    width: 30%;
+    float: left;
+    margin-right: 3%;
+    padding: 0 15px;
+}
+.footer .about ul li {
+    margin: 10px 45px;
+    text-transform: capitalize;
+}
+.social-link {
+    text-align: center;
+}
+
+.social-icon li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.subscribe {
+    text-align: center;
+}
+.subscribe input {
+    width: 75%;
+    margin: 10px auto;
+    display: block;
+    padding: 10px;
+
+}
+.subscribe-btn {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #77037B;
+    color: wheat;
+    padding: 15px 20px;
+    border: 2px solid red;
+    border-radius: 28px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.copyright {
+    width: 70%;
+    border-top: 1px solid #FDF4F5;
+    margin: 15px auto;
+    text-align: center;
+    padding: 2% 0;
+}
+.copyright span {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #77037B;
+}
